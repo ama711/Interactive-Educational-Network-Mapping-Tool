@@ -1,0 +1,69 @@
+Node: Course 1
+Node: Course 2
+Node: Course 3
+Node: Course 4
+Node: Course 5
+Node: Course 6
+Node: Course 7
+Node: Course 8
+Node: Course 9
+Node: Teacher 1
+Node: Teacher 2
+Node: Teacher 3
+Node: Teacher 4
+Node: Teacher 5
+Node: Teacher 6
+Node: Student 1
+Node: Student 2
+Node: Student 3
+Node: Student 4
+Node: Student 5
+Node: Student 6
+Node: Student 7
+Node: Student 8
+Node: Student 9
+Node: Major 1
+Node: Major 2
+Node: Major 3
+Node: Faculty 1
+Relation: Course 1 -> Teacher 1
+Relation: Course 2 -> Teacher 2
+Relation: Course 3 -> Teacher 3
+Relation: Course 4 -> Teacher 4
+Relation: Course 5 -> Teacher 4
+Relation: Course 6 -> Teacher 5
+Relation: Course 7 -> Teacher 6
+Relation: Course 8 -> Teacher 6
+Relation: Course 9 -> Teacher 6
+Relation: Course 1 -> Student 1
+Relation: Course 1 -> Student 2
+Relation: Course 2 -> Student 1
+Relation: Course 2 -> Student 2
+Relation: Course 2 -> Student 3
+Relation: Course 3 -> Student 2
+Relation: Course 4 -> Student 4
+Relation: Course 4 -> Student 5
+Relation: Course 5 -> Student 4
+Relation: Course 5 -> Student 5
+Relation: Course 6 -> Student 5
+Relation: Course 6 -> Student 6
+Relation: Course 7 -> Student 7
+Relation: Course 7 -> Student 9
+Relation: Course 8 -> Student 8
+Relation: Course 9 -> Student 7
+Relation: Course 9 -> Student 9
+Relation: Major 1 -> Course 1
+Relation: Major 1 -> Course 2
+Relation: Major 1 -> Course 3
+Relation: Major 2 -> Course 4
+Relation: Major 2 -> Course 5
+Relation: Major 2 -> Course 6
+Relation: Major 3 -> Course 7
+Relation: Major 3 -> Course 8
+Relation: Major 3 -> Course 9
+Relation: Faculty 1 -> Major 1
+Relation: Faculty 1 -> Major 2
+Relation: Faculty 1 -> Major 3
+Relation: Course 1 -> Course 3
+Relation: Course 4 -> Course 5
+Relation: Course 7 -> Course 9
